@@ -1,9 +1,12 @@
 @import "bootstrap";
+/* Import google font "Muli" */
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
 /* Clear out the line break so it doesn't run into the header */
 .clear {
   clear: both;
 }
+
 
 /* Logo styling */
 .circle {
@@ -26,6 +29,7 @@
     -webkit-transform: rotate(11deg); /* Opera, Chrome, and Safari */
 }
 
+
 /* Slogan styling */
 .slogan {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
@@ -34,24 +38,43 @@
   padding-top: 26px;
 }
 
+
 /* Styling the links in the nav bar */
 .links {
   padding-top: 26px;
 }
+
 
 /* Styling the actual <a> tags in the nav links */
 .links a {
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
+
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
 }
+
 
 /* Nav bar header styling */
 header {
   border-top: 9px solid #222222;
 }
 
+
 /* Clearing the hr so it doesn't get sucked into the header */
 hr {
   clear:both;
+}
+
+
+/* Font-styles for the quotes */
+h1 {
+  font-family: 'alex_brushregular', sans-serif;
+  font-size: 60px;
+
+}
+
+h2 {
+  font-family: 'Muli', sans-serif;
 }
