@@ -1,1 +1,6 @@
 @import "bootstrap";
+
+/* Clear out the line break so it doesn't run into the header */
+.clear {
+  clear: both;
+}
