@@ -71,12 +71,13 @@ hr {
 /* Font-styles for the quotes */
 h1 {
   font-family: 'alex_brushregular', sans-serif;
-  font-size: 60px;
+  font-size: 80px;
 
 }
 
 h2 {
   font-family: 'Muli', sans-serif;
+  font-size: 30px;
 }
 
 
@@ -106,4 +107,26 @@ h2 {
 /* Styling for the about page */
 .about {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+
+/* Align footer blurb on mobile devices */
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
+
+/* Modal fonts */
+.modal {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+h2 span {
+  color: #dddddd;
+  font-family: 'Muli', sans-serif;
+}
+
+::selection {
+  background-color: #f84342;
 }
