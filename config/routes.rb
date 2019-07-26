@@ -5,4 +5,7 @@ Rails.application.routes.draw do
 
   # Add a route to our About page
   get 'about', to: 'quotes#about'
+
+  # A page used for testing, not intended to be visible
+  get 'test', to: 'quotes#test'
 end
